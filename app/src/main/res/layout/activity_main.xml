@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootMainLayout"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtTxtWt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="@string/wt"
+        android:inputType="number"
+        android:layout_margin="3sp"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtTxtHtFt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3sp"
+        android:ems="12"
+        android:hint="@string/htFt"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtTxtHtIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="@string/htIn"
+        android:layout_margin="3sp"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCal"
+        android:id="@+id/btnCalculate"
+        android:layout_marginTop="12sp"
+        android:textSize="16sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtView"
+        android:id="@+id/txtView"
+        android:layout_marginTop="12sp"
+        android:textSize="16sp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
